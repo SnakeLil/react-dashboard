@@ -1,0 +1,40 @@
+.dataTable {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+
+    .table {
+        padding:  20px;
+
+        .MuiDataGrid-toolbarContainer {
+            display: flex;
+
+            flex-direction: row-reverse;
+            align-items: center;
+            margin-bottom: 20px;
+            
+        }
+        .MuiInputBase-root MuiInput-root {
+
+        }
+        .MuiDataGrid-cell--withRenderer {
+            img {
+                object-fit: cover;
+            }
+        }
+        .actions {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            span {
+                cursor: pointer;
+            }
+            .view {
+
+            }
+            .delete {
+
+            }
+        }
+    }
+}

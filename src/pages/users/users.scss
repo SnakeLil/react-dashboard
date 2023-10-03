@@ -1,0 +1,16 @@
+.users {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    .info {
+        display: flex;
+        gap: 20px;
+        
+        button {
+            background-color: aliceblue;
+            border-radius: 10px;
+            width: fit-content;
+            padding: 10px;
+        }
+    }
+}
